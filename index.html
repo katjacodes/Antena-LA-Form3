@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Language Justice Training Evaluation, Session 2</title> 
+  <link rel="stylesheet" href="CSS/Antena-Form2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <img src="IMG/AntenaLogo1.png" style="display: inline-block" alt="Antena logo"/>
+      <h1 style="display: inline-block">Language Justice Training Evaluation, Session 2</h1>
+    </div>
+  </header> 
+
+  <main>
+    <h1 id="request"> We welcome your feedback on the second session of our Language Justice training and look forward to learning from your responses.</h1>
+    <p id="explanation">Feel free to be touch if you have questions or if there's more you'd like to share with us: anapaula@antenalosangeles.org and katja@antenalosangeles.org.</p>
+
+    <!--<div class="form">-->
+    <form name="language justice" method="POST" data-netlify="true">
+      <div class="row">
+        <div class="col-25">
+          <label for="name">What is your name? (optional)</label>
+        </div>
+        <div class="col-75">
+          <textarea id="name" name="name" cols="50" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="role">What is your role at your organization? (optional)</label>
+        </div>
+        <div class="col-75">
+          <textarea id="role" name="role" cols="50" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="learning">What are your primary takeaways from the second session of the Language Justice training? Please name two or three concrete terms or ideas that most stuck with you.</label>
+        </div>
+        <div class="col-75">
+          <textarea id="learning" name="learning" cols="50" rows="10" required></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="value">What was most valuable aspect of the second session of the Language Justice training? What did you like most and why?</label>
+        </div>
+        <div class="col-75">
+          <textarea id="value" name="value" cols="50" rows="10" required></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="improvement">What could be improved about this training overall?</label>
+        </div>
+        <div class="col-75">
+         <textarea id="improvement" name="improvement" cols="50" rows="10" required></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="clarity">Were there any concepts that remain unclear to you? If so, which one(s)?</label>
+        </div>
+        <div class="col-75">
+        <textarea id="clarity" name="clarity" cols="50" rows="10" required></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="ideas">Are there specific topics we did not cover in this training that you would like to learn more about in a future training? If so, which one(s)? </label>
+        </div>
+        <div class="col-75">
+        <textarea id="ideas" name="ideas" cols="50" rows="10" required></textarea>
+        </div>
+      </div>
+
+       <div class="row">
+      <div class="col-25">
+        <label for="rating">Please rate the quality of facilitation, from 1 (poor) to 5 (excellent):</label>
+      </div>
+
+      <div class="col-75">
+        <label for="one">
+          <input
+          name="notification"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />&nbsp;&nbsp;1
+        </label>
+      </div>
+
+      <div class="col-75">
+        <label for="two">
+          <input
+          name="notification"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />&nbsp;&nbsp;2
+        </label>
+      </div>
+
+      <div class="col-75">
+        <label for="three">
+          <input
+          name="notification"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />&nbsp;&nbsp;3
+        </label>
+      </div>
+
+      <div class="col-75">
+        <label for="four">
+          <input
+          name="notification"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />&nbsp;&nbsp;4
+        </label>
+      </div>
+
+      <div class="col-75">
+        <label for="five">
+          <input
+          name="notification"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />&nbsp;&nbsp;5
+        </label>
+      </div>
+    </div>
+
+      <div class="row">
+        <button id="post" type="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
